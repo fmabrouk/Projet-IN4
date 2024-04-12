@@ -10,7 +10,7 @@ steps:
     publishWebProjects: true
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'groupe4conn'
+    azureSubscription: 'Azure subscription 1(47cadc79-b057-4c4b-8f6f-6db4c638ce2c)'
     appType: 'webApp'
     appName: 'Groupe4'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
